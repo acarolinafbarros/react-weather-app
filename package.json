@@ -1,0 +1,56 @@
+{
+  "name": "react-weather-app-carol",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "jest-environment-jsdom": "^27.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.1.1",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest -c ./jest.config.js",
+    "test:watch": "jest -i --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .js",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --ignore-path ../.prettierignore --write \"./**/*.{js}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.26.0",
+    "jest-cli": "^27.2.1",
+    "prettier": "2.4.1"
+  }
+}
